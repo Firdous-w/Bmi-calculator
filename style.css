@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: yellow;
+}
+.parent {
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card {
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  border-radius: 1rem;
+}
+.inputs {
+  width: 200px;
+  height: 30px;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  border-radius: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+}
